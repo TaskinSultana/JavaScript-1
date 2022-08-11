@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1614285457768-646f65ca8548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+}
+.container .inner {
+  width: 70%;
+  min-height: 50vh;
+  margin: auto auto;
+  border: 1px solid #ddd;
+  color: #ddd;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.container .inner .again {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 130px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.container .inner h1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.container .inner p {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.container .guess {
+  margin: auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ddd;
+}
+.container .guess p {
+  font-size: 2rem;
+  justify-content: center;
+}
+.container .flex {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .flex .flex1 {
+  padding: 10px 15px;
+  margin: 10px;
+}
+.container .flex .flex1 .answer {
+  width: 200px;
+  height: 70px;
+  border: 1px solid #ddd;
+  font-size: 1.7rem;
+  color: #ddd;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.container .flex .flex1 .btn {
+  margin-top: 20px;
+}
+.container .flex .flex1 .btn button {
+  width: 130px;
+  height: 40px;
+  margin-left: 35px;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.container .flex .flex2 {
+  padding: 10px 30px;
+  margin: 10px;
+  margin-top: -20px;
+  text-align: left;
+}
+.container .flex .flex2 .message {
+  text-align: left;
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+}
+.container .flex .flex2 p {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .container .inner {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .container .inner {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  .container .inner h1 {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .container .inner .guess {
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #ddd;
+  }
+  .container .inner .guess p {
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .container .inner .flex {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .inner .flex .flex2 {
+    padding: 10px 30px;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=style.css.map */
